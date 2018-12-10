@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25DC314018DFD19EF4D12DB9 /* Pods_MobiusMLApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F49466D2583CA8C0991EFF8 /* Pods_MobiusMLApp.framework */; };
 		5BD75E1321BDEF0300BCE470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD75E1221BDEF0300BCE470 /* AppDelegate.swift */; };
 		5BD75E1521BDEF0300BCE470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD75E1421BDEF0300BCE470 /* ViewController.swift */; };
 		5BD75E1821BDEF0300BCE470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD75E1621BDEF0300BCE470 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		5BD75E2021BDEF0400BCE470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD75E1E21BDEF0400BCE470 /* LaunchScreen.storyboard */; };
 		5BD75E2B21BDEF0400BCE470 /* MobiusMLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD75E2A21BDEF0400BCE470 /* MobiusMLAppTests.swift */; };
 		5BD75E3621BDEF0400BCE470 /* MobiusMLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD75E3521BDEF0400BCE470 /* MobiusMLAppUITests.swift */; };
+		E445854D0D401847E17343C7 /* Pods_MobiusMLAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD7D756328C449784D5664 /* Pods_MobiusMLAppTests.framework */; };
+		E5D60165D31BA5BCD05CE77F /* Pods_MobiusMLAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4E6560B91131D280D09CF0 /* Pods_MobiusMLAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4E6560B91131D280D09CF0 /* Pods_MobiusMLAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusMLAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7592D57582AA55B557F6E3 /* Pods-MobiusMLAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLAppTests/Pods-MobiusMLAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30B6E23A5D33BCA7CC14395F /* Pods-MobiusMLAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLAppTests/Pods-MobiusMLAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		5BD75E0F21BDEF0300BCE470 /* MobiusMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD75E1221BDEF0300BCE470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD75E1421BDEF0300BCE470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		5BD75E3121BDEF0400BCE470 /* MobiusMLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiusMLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD75E3521BDEF0400BCE470 /* MobiusMLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiusMLAppUITests.swift; sourceTree = "<group>"; };
 		5BD75E3721BDEF0400BCE470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807712CE63EAF68926EE5E07 /* Pods-MobiusMLApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLApp/Pods-MobiusMLApp.release.xcconfig"; sourceTree = "<group>"; };
+		81931506836D9A0F42F1974E /* Pods-MobiusMLAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLAppUITests/Pods-MobiusMLAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A516E971AFAF42EC2859B2E /* Pods-MobiusMLApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLApp/Pods-MobiusMLApp.debug.xcconfig"; sourceTree = "<group>"; };
+		94FD7D756328C449784D5664 /* Pods_MobiusMLAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusMLAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F49466D2583CA8C0991EFF8 /* Pods_MobiusMLApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusMLApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F052CB6856A2B946AA52B351 /* Pods-MobiusMLAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusMLAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiusMLAppUITests/Pods-MobiusMLAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DC314018DFD19EF4D12DB9 /* Pods_MobiusMLApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E445854D0D401847E17343C7 /* Pods_MobiusMLAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D60165D31BA5BCD05CE77F /* Pods_MobiusMLAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				5BD75E2921BDEF0400BCE470 /* MobiusMLAppTests */,
 				5BD75E3421BDEF0400BCE470 /* MobiusMLAppUITests */,
 				5BD75E1021BDEF0300BCE470 /* Products */,
+				85D31D74E710F6D4179002B2 /* Pods */,
+				CF618A11A0A8B8D9EAF031F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = MobiusMLAppUITests;
 			sourceTree = "<group>";
 		};
+		85D31D74E710F6D4179002B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A516E971AFAF42EC2859B2E /* Pods-MobiusMLApp.debug.xcconfig */,
+				807712CE63EAF68926EE5E07 /* Pods-MobiusMLApp.release.xcconfig */,
+				2B7592D57582AA55B557F6E3 /* Pods-MobiusMLAppTests.debug.xcconfig */,
+				30B6E23A5D33BCA7CC14395F /* Pods-MobiusMLAppTests.release.xcconfig */,
+				81931506836D9A0F42F1974E /* Pods-MobiusMLAppUITests.debug.xcconfig */,
+				F052CB6856A2B946AA52B351 /* Pods-MobiusMLAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF618A11A0A8B8D9EAF031F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F49466D2583CA8C0991EFF8 /* Pods_MobiusMLApp.framework */,
+				94FD7D756328C449784D5664 /* Pods_MobiusMLAppTests.framework */,
+				0A4E6560B91131D280D09CF0 /* Pods_MobiusMLAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BD75E3A21BDEF0400BCE470 /* Build configuration list for PBXNativeTarget "MobiusMLApp" */;
 			buildPhases = (
+				1DFAC648DC62C19805FD35FE /* [CP] Check Pods Manifest.lock */,
 				5BD75E0B21BDEF0300BCE470 /* Sources */,
 				5BD75E0C21BDEF0300BCE470 /* Frameworks */,
 				5BD75E0D21BDEF0300BCE470 /* Resources */,
+				5A7BF940359FF8F20AE9FFBE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BD75E3D21BDEF0400BCE470 /* Build configuration list for PBXNativeTarget "MobiusMLAppTests" */;
 			buildPhases = (
+				75A6BCA53B6538FFB15A8D0F /* [CP] Check Pods Manifest.lock */,
 				5BD75E2221BDEF0400BCE470 /* Sources */,
 				5BD75E2321BDEF0400BCE470 /* Frameworks */,
 				5BD75E2421BDEF0400BCE470 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BD75E4021BDEF0400BCE470 /* Build configuration list for PBXNativeTarget "MobiusMLAppUITests" */;
 			buildPhases = (
+				536816FE6C57B869C9AEB4D9 /* [CP] Check Pods Manifest.lock */,
 				5BD75E2D21BDEF0400BCE470 /* Sources */,
 				5BD75E2E21BDEF0400BCE470 /* Frameworks */,
 				5BD75E2F21BDEF0400BCE470 /* Resources */,
@@ -253,6 +297,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DFAC648DC62C19805FD35FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusMLApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		536816FE6C57B869C9AEB4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusMLAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7BF940359FF8F20AE9FFBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiusMLApp/Pods-MobiusMLApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FaceTrigger/FaceTrigger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceTrigger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiusMLApp/Pods-MobiusMLApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A6BCA53B6538FFB15A8D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusMLAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BD75E0B21BDEF0300BCE470 /* Sources */ = {
@@ -434,6 +569,7 @@
 		};
 		5BD75E3B21BDEF0400BCE470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A516E971AFAF42EC2859B2E /* Pods-MobiusMLApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +588,7 @@
 		};
 		5BD75E3C21BDEF0400BCE470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807712CE63EAF68926EE5E07 /* Pods-MobiusMLApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +607,7 @@
 		};
 		5BD75E3E21BDEF0400BCE470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7592D57582AA55B557F6E3 /* Pods-MobiusMLAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +629,7 @@
 		};
 		5BD75E3F21BDEF0400BCE470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B6E23A5D33BCA7CC14395F /* Pods-MobiusMLAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +651,7 @@
 		};
 		5BD75E4121BDEF0400BCE470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81931506836D9A0F42F1974E /* Pods-MobiusMLAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +672,7 @@
 		};
 		5BD75E4221BDEF0400BCE470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F052CB6856A2B946AA52B351 /* Pods-MobiusMLAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
